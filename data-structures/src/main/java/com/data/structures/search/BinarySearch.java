@@ -45,8 +45,5 @@ public class BinarySearch implements Search {
         }
     }
 
-    public static void main(String[] args) {
-        int [] input = new int[]{1, 2, 3 ,4 ,5 ,6 ,7 ,8 ,9};
-        new BinarySearch(input).search(0);
-    }
+
 }

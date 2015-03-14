@@ -35,8 +35,4 @@ public class LinearSearch implements Search{
         }
     }
 
-    public static void main(String[] args) {
-        int [] input = new int[]{10, 90, 80 , 4, 76, 59, 33};
-        new LinearSearch(input).search(4);
-    }
 }
