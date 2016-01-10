@@ -18,4 +18,13 @@ public class StackTest {
         stack.push(10);
         Assert.assertEquals(integerToPush, stack.peek());
     }
+
+    @Test
+    public void testPop()throws Stack.StackOverflowException, Stack.StackUnderflowException {
+        Stack<Integer> stack = new Stack<>();
+        Integer integerToPush = 10;
+        stack.push(10);
+        stack.pop();
+        Assert.assertEquals( stack.getSize() , 0);
+    }
 }
