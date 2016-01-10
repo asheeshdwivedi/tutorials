@@ -1,6 +1,4 @@
-package com.data.structures.search;
-
-import com.data.structures.LinkedList;
+package com.data.structures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
