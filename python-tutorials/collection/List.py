@@ -10,20 +10,20 @@ del number[1]
 
 print(number)
 
-alpha =['a' ,'b' ,'c' ,'d']
+alpha = ['a', 'b', 'c', 'd']
 
-print(alpha);
-alpha.append('e');
+print(alpha)
+alpha.append('e')
 
 print(alpha)
 
-alpha= alpha + ['f' , 'g']
+alpha = alpha + ['f', 'g']
 
 print(alpha)
 
-d_index = alpha.index('d');
+d_index = alpha.index('d')
 
-print('D_index : ' + str(d_index) );
+print('D_index : ' + str(d_index))
 
 del alpha[d_index]
 
